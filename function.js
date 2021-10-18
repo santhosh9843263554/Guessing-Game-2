@@ -1,9 +1,11 @@
-const randomNumber=Math.floor(Math .random()*99+1);
+const randomNumber=Math.floor(Math .random()*9+1);
 const userGeuss=document.querySelector("#input");
 const resultDiv=document.querySelector(".result");
 const historyDiv=document.querySelector(".history");
 let chances=3;
 console.log(randomNumber);
+
+
 
 
 
@@ -19,8 +21,11 @@ function game(){
          
          
          case(randomNumber==guess):
-         result="You Won!";
+         result="You Won!" + audio;
          isWin=true;
+        
+         
+         
          break;
 
 case( randomNumber<guess):
@@ -35,11 +40,17 @@ break;
          case(randomNumber>guess):
          result="You too Low";
          break;
+         case(chances==0):
+            result=
+            reload();
 
 
 
 
         default:( chances==1)
+
+
+
          
          result="Game Over!" + randomNumber;
         }
@@ -48,12 +59,14 @@ break;
     return resultDiv.innerHTML=result;
     
     }
-1
+    
+        
+    
+
 function reload(){
     
-     if(!chances || isWin){
+     if(!chances ==1|| isWin){
          location.reload();
      }
 }
-
-reload()
+reload();

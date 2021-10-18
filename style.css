@@ -23,7 +23,7 @@ body{background-image: url(img.jpg);
         color: transparent;}
         .label{
             text-align: center;
-            font-size:xx-large ;
+            font-size:xx-large;         
             
             background:url(img2.jpg) ;
             background-size: cover;
@@ -37,10 +37,10 @@ body{background-image: url(img.jpg);
             background: url(img4.jpg);
         }
         .input{
-            color: rgb(100, 116, 116);
+            color: rgb(148, 161, 161);
             
             position: absolute;
-            top:150px;
+            top: 200px;
             left: 45%;
             border-radius: 50px;
             cursor: text;
@@ -55,7 +55,8 @@ body{background-image: url(img.jpg);
             
         }
         button{
-            background:url("img4.jpg");background-size: cover;
+            background:url("img4.jpg")
+            ;background-size: cover;
             background-clip: text;
             -webkit-background-clip: text;
             color: transparent;
@@ -71,7 +72,7 @@ body{background-image: url(img.jpg);
         .result{
             border: 1px rgb(107,214,107);
             border-radius: 10px;
-            background-image:url("img4.jpg");
+            background-image:url("img5.jpg");
             background-size: cover;
             background-clip: text;
             -webkit-background-clip: text;
@@ -85,6 +86,30 @@ body{background-image: url(img.jpg);
         }
         .result*{
             padding: 18px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
 
 
